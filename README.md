@@ -30,20 +30,16 @@ To run this tool, you'll need:
 - The `requests` library
 - The `rich` library for improved table output
 
-You can install the required libraries using `pip`:
-
-```sh
-pip install requests rich
-```
-
 ## **Installation** ⚙️
 
 1. Clone the repository or download the script as `gxhub.py`.
-2. Install dependencies by running the following command:
+2. Install the required libraries using `pip`:
 
     ```sh
-    pip install -r requirements.txt
+    pip install requests rich
     ```
+
+   This will install the necessary dependencies: `requests` for making HTTP requests to the GitHub API, and `rich` for generating styled tables and output.
 
 ## **Usage** 🚀
 
@@ -128,5 +124,4 @@ Here are some planned future features for GXHub:
 ## **License** 📜
 
 This tool is provided "as-is". Use it responsibly and ensure compliance with GitHub’s API usage terms. Always respect privacy and do not use this tool for unethical activities.
-
 
